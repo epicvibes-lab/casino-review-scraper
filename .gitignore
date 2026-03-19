@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+
+# Scrapy
+.scrapy/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Large data directories
+json_files/
+images/
+data/
+scraped_urls/
+
+# Job tokens (contain internal job IDs)
+**/job_tokens.txt
+
+# Rewritten/processed output
+rewritten_jsons/
+processed_jsons/
+
+# Log files from scrapers
+utils/logs/
+gpt_rewrite.log

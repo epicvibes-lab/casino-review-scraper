@@ -1,0 +1,150 @@
+{
+    "detail_info": {
+        "casino_name": "Example Casino Review",
+        "safety_index": "8.5/10",
+        "safety_rating": "SAFETY INDEX HIGH by Casino Guru",
+        "user_feedback": "Good",
+        "user_reviews_count": "42",
+        "accepts_vietnam": "Accepts players from Vietnam",
+        "payment_methods": [
+            "VISA",
+            "Mastercard",
+            "Skrill",
+            "Neteller",
+            "Bitcoin (BTC)",
+            "Bank transfer",
+            "PaySafeCard",
+            "Trustly"
+        ],
+        "withdrawal_limits": {
+            "day": "$5,000",
+            "week": "$15,000",
+            "month": "$50,000"
+        },
+        "owner": "Example Gaming Ltd.",
+        "established": "2019",
+        "estimated_annual_revenues": "> 10,000,000,000 ₫",
+        "licensing_authorities": [
+            "Malta (MGA)",
+            "Curacao"
+        ]
+    },
+    "main_content": "<div class=\"casino-detail-box-description\"><h3>Example Casino Review</h3><p>This field contains the full HTML review text scraped from the source page. It typically includes multiple sections: safety analysis, T&C review, player complaints summary, payment info, game selection overview, and bonus details. The HTML preserves the original structure with headings, paragraphs, tables, and embedded SVG icons.</p><p>In production, this content is rewritten via GPT or Text Generator API before being published to WordPress.</p></div>",
+    "bonuses": {
+        "NO DEPOSIT BONUS": [
+            {
+                "name": "20 Free Spins No Deposit",
+                "additional_info": "On registration",
+                "is_available": true,
+                "terms_and_conditions": {
+                    "type": "No deposit bonus",
+                    "wagering_requirements": "40x bonus",
+                    "maximum_bet": "$5",
+                    "expiration": "7 days",
+                    "free_spins_value": "$0.10 per spin",
+                    "additional_terms": "New players only, 18+"
+                }
+            }
+        ],
+        "DEPOSIT BONUS": [
+            {
+                "name": "100% up to $500 + 50 Free Spins",
+                "additional_info": "First deposit bonus",
+                "is_available": true,
+                "terms_and_conditions": {
+                    "type": "Deposit bonus",
+                    "minimum_deposit": "$20",
+                    "wagering_requirements": "35x (deposit + bonus)",
+                    "maximum_bet": "$5",
+                    "expiration": "30 days",
+                    "free_spins_details": "50 spins on Book of Dead, $0.10 per spin",
+                    "free_spins_conditions": "35x WR, 7-day expiration",
+                    "process_speed": "FAST",
+                    "additional_terms": "New players only, 18+, T&C apply"
+                }
+            },
+            {
+                "name": "50% up to $200",
+                "additional_info": "Second deposit bonus",
+                "is_available": true,
+                "terms_and_conditions": {
+                    "type": "Deposit bonus",
+                    "minimum_deposit": "$20",
+                    "wagering_requirements": "35x (deposit + bonus)",
+                    "expiration": "30 days"
+                }
+            }
+        ]
+    },
+    "games": {
+        "available_games": [
+            "Baccarat",
+            "Betting",
+            "Bingo",
+            "Blackjack",
+            "Crash games",
+            "Jackpot games",
+            "Live games",
+            "Roulette",
+            "Scratch cards",
+            "Slots",
+            "Video poker"
+        ],
+        "unavailable_games": [
+            "Craps",
+            "Keno"
+        ]
+    },
+    "language_options": {
+        "website_languages": [
+            "English",
+            "German",
+            "French",
+            "Spanish",
+            "Portuguese"
+        ],
+        "customer_support_languages": [
+            "English",
+            "German",
+            "French"
+        ],
+        "live_chat_languages": [
+            "English",
+            "German"
+        ]
+    },
+    "game_providers": {
+        "providers": [
+            "NetEnt",
+            "Pragmatic Play",
+            "Evolution Gaming",
+            "Play'n GO",
+            "Microgaming",
+            "Red Tiger Gaming",
+            "Yggdrasil Gaming",
+            "Quickspin",
+            "Betsoft Gaming",
+            "Thunderkick"
+        ]
+    },
+    "screenshots": [
+        "https://static.casino.guru/pict/000001/example_homepage_desktop.png",
+        "https://static.casino.guru/pict/000002/example_promotions_desktop.png",
+        "https://static.casino.guru/pict/000003/example_homepage_mobile.png"
+    ],
+    "pros_cons": {
+        "positives": [
+            "Wide selection of game providers",
+            "Fast withdrawal processing",
+            "24/7 live chat support",
+            "Accepts cryptocurrency payments"
+        ],
+        "negatives": [
+            "Limited withdrawal options in some countries",
+            "High wagering requirements on bonuses"
+        ],
+        "interesting_facts": [
+            "Part of a large casino group with 10+ brands"
+        ]
+    }
+}

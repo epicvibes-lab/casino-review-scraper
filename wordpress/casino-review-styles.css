@@ -1,0 +1,144 @@
+.casino-review-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.casino-review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.safety-rating {
+    text-align: center;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.rating-score {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.rating-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.casino-quick-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.info-item {
+    padding: 0.5rem;
+}
+
+.pros-cons-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pros, .cons {
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.pros {
+    background: #e8f5e9;
+}
+
+.cons {
+    background: #ffebee;
+}
+
+.pros h3, .cons h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.pros ul, .cons ul {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.pros li, .cons li {
+    margin-bottom: 0.5rem;
+}
+
+.main-content {
+    margin-bottom: 2rem;
+}
+
+.withdrawal-limits, .available-games, .payment-methods {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.withdrawal-limits ul, .available-games ul, .payment-methods ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.withdrawal-limits li, .available-games li, .payment-methods li {
+    padding: 0.5rem;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.casino-screenshots {
+    margin-bottom: 2rem;
+}
+
+.screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.screenshot {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.screenshot img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .casino-review-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .safety-rating {
+        margin-top: 1rem;
+    }
+
+    .pros-cons-section {
+        grid-template-columns: 1fr;
+    }
+} 
